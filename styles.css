@@ -1,0 +1,1131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+html {
+    --h1_color : #FF7A00;
+    --h2_color : #FFF1E3;
+    --h3_color : #FFF1E3 ;
+    --button-color : #fff;
+    --main-text-color :#222222;
+    --header-menu-color : #9A9A9A;
+}
+
+.header {
+    width: 100%;
+    height: 68px;
+    position: fixed;
+    top: 0;
+    background-color: var(--main-text-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+}
+.burger-menu img {
+    margin-left: 18px;
+    margin-top: 20px;
+}
+
+.cart img {
+    margin-right: 18px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+/* main-section */
+
+.main-section {
+    position: absolute;
+    width: 100%;
+    height: 509px;
+    left: 0px;
+    top: 68px;
+    background-image: url("../images/mobile-first-main.png");
+    background-size: 100%;
+}
+
+.barber-shop {
+    display: flex;
+    flex-direction: row;
+    opacity: 0.3;
+    margin-top: 213px;
+}
+
+.barber-shop .blade {
+    margin-left: 8px;
+}
+
+
+.barber-shop-images {
+    width: 175px;
+    height: 30px;
+    margin-left: 24px;
+
+}
+
+.dot {
+    margin-top: 65px;
+    margin-left: 15px;
+}
+
+.main-section-text p {
+    color: #FFF1E3;
+    margin-right: 16px;
+    margin-left: 35px;
+    margin-top:32px;
+    margin-bottom: 32px;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+.button-case {
+   margin-right: 16px;
+   margin-left: 35px;
+}
+
+.button {
+    padding: 0 80px;
+    height: 52px;
+    background: #FF7A00;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 0px solid rgba(0,0,0,0.3);
+    -webkit-appearance: none;
+    
+}
+/* second section */
+
+.our-services {
+    width: 100%;
+    height: 60px;
+    background-color: var(--button-color);
+    margin-top: 32px;
+    color: var(--h1_color);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: flex;
+    
+}
+.our-services img {
+    width: 9px;
+    height: 9px;
+    margin-left: 18px;
+    margin-top:37px;
+    margin-bottom: 17px;
+    margin-right: 8px;
+}
+
+.our-services p {
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+
+.second-section {
+    width: 100%;
+    height: 570px;
+    background-color: #000;
+    opacity: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-section-cases {
+    display: flex;
+    flex-direction: row;
+    margin-left: 24px;
+    margin-top: 21px;    
+}
+.second-section-cases:first-child {
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-top: 21px;    
+}
+
+.second-section-cases-text {
+    margin-left: 17px;
+}
+.second-section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19,5px;
+    color: #FFF1E3;
+}
+.second-section-text {
+    font-family: 'Montserrat' , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: lowercase;
+    color: var(--h2_color);
+}
+/* THIRD SECTION */
+
+.third-section {
+    width: 100%;
+    height: 600px;
+}
+.third-section .our-services {
+    height: 60px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.our-services .our-team {
+    margin-right: 16px;
+}
+.empty-block1 {
+    height: 60px;
+    width: 190px;
+}
+
+.third-section-first-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.master-description {
+    margin-top:24px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: var(--h1_color);
+}
+
+.third-section-dialog {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: var(--main-text-color);
+}
+
+.orange-block {
+    width: 204px;
+    height: 334px;
+    background-color: var(--h1_color);
+    margin-left: 31px;
+    margin-right: 85;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.barber-master {
+    margin-top: 17px;
+    margin-right: 17px;
+    margin-bottom: 17px;
+    margin-left: -17px;
+}
+
+.button-arrow {
+    width: 53px;
+    height: 53px;
+    background-color: #FFF2E5;
+    margin-top: 280px;
+    margin-left: 16px;
+}
+.button-arrow .arrow {
+    height: 10px;
+    width: 20px;
+    background-color: var(--h1_color);
+    align-items: center;
+}
+
+/* FORM SECTION */
+
+.form-section {
+    width: 100%;
+    height: 840px;
+}
+.form-section h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 165px;
+    margin-left: 23px;
+    margin-right: 23px;
+    
+}
+.form-section .form-section-description {
+    margin-top:24px;
+    margin-left: 50px;
+    margin-right: 23px;
+    margin-bottom: 32px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.form-section-radio-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section-checkbox {
+    display: flex;
+    flex-direction: column;
+}
+.form-section-title {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+.form-section-title:not(first-child) {
+    margin-top: 16px;
+}
+
+.name {
+    width: 288px;
+    height: 44px;
+    margin-left: 40px;
+    margin-right: 23px;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+.date {
+    width: 288px;
+    height: 44px;
+    margin-left: 40px;
+    margin-right: 23px;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    width: 288px;
+    height: 44px;
+    margin-left: 40px;
+    margin-right: 23px;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.form-section-radio-buttons {
+    width: 288px;
+    height: 125px;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 40px;
+    margin-right: 23px;
+}   
+.label-name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.radio-master input[type=radio] {
+    display: none;
+}
+.radio-master label {
+    display: inline-block;
+	cursor: pointer;
+	position: relative;
+	line-height: 18px;
+	user-select: none;  
+    padding-left: 25px;
+    padding-top: 10px;
+    margin-left: 40px;
+}
+
+.radio-master label:before{
+    content: "";
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	background: url(../images/Dropdown/off-mobile.png) 0 0 no-repeat;
+}
+
+/* Checked */
+.radio-master input[type=radio]:checked + label:before {
+	background: url(../images/Dropdown/Radio_button-mobile.png) 0 0 no-repeat;
+}
+
+/* Hover */
+.radio-master label:hover {
+	color: #666;
+}
+ 
+/* Disabled */
+.radio-master input[type=radio]:disabled + label {
+	background: #efefef;
+	color: #666;
+}
+
+
+.checkbox-other {
+	display: block;
+	cursor: pointer;
+	user-select: none;
+	position: relative;
+    margin-top:5px;
+    margin-left: 40px;
+    
+}
+.checkbox-other:first-child {
+    margin-top: 20px;
+}
+.checkbox-other input[type=checkbox] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+.checkbox-other span {
+	display: inline-block;
+	position: relative;  
+    padding-left: 25px;
+}
+
+.checkbox-other span:before {
+	content: "";
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: background 0.3s ease;
+	background: url(../images/Dropdown/check-box-off.png) 0 0 no-repeat;
+}
+ 
+/* Checked */
+.checkbox-other input[type=checkbox]:checked + span:before {
+	background-image: url(../images/Dropdown/check-box-on.png);
+}
+ 
+/* Focus */
+.focused span:before {
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+ 
+/* Hover */
+.checkbox-other span:hover:before {
+	filter: brightness(110%);
+}
+ 
+/* Active */
+.checkbox-other span:active:before {
+	filter: brightness(80%);
+}
+ 
+/* Disabled */
+.checkbox-other input[type=checkbox]:disabled + span {
+	color: #666;
+	cursor: default;
+}
+.checkbox-other input[type=checkbox]:disabled + span:before {
+	filter: grayscale(100%);
+	opacity: 0.6;
+} 
+.button-form {
+    margin-left: 45px;
+    margin-top: 32px;
+    padding: 0 85px;
+    height: 52px;
+    background: #FF7A00;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 0px solid rgba(0,0,0,0.3);
+    -webkit-appearance: none;
+}
+
+/* SHOP SECTION */
+
+.shop-section {
+    height: 663px;
+    box-shadow: 0px -9px 8px #888888;
+}
+.product-case {
+    width: 245px;
+    height: 221px;
+    background-image: url(../images/bottle_oil_mobile.png);
+    margin-bottom: 25px;
+    margin-left: 70px;
+    margin-right: 37px;
+    margin-top: 48px;
+    box-shadow: 5px 10px 30px #888888;
+}
+
+.description-product {
+    margin-left: 90px;
+    margin-right: 49px;
+}
+.description-product h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+.description-product p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.description-product h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FF7A00;
+    margin-top: 16px;
+}
+
+.shop-button-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+}
+.shop-button-container .Shop_now {
+    padding: 0 50px;
+}
+.Shop_now {
+    height: 52px;
+    margin-left: 17px;
+    margin-right: 5px;
+    border: 1px solid #222222;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    -webkit-appearance: none;
+}
+
+.add-item {
+    height: 52px;
+    border: 1px solid #222222;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 20px;
+    -webkit-appearance: none;
+}
+
+.shop-arrow-section {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.arrow-left {
+    margin-left: 140px;
+    margin-top: 60px;
+    margin-right: 21px;
+    margin-bottom: 60px;
+
+}
+
+.arrow-right {
+    margin-left: 21px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.reviews-section {
+    width: 100%;
+    height: 767px;
+    background-image: url(../images/reviews-background-mobile.png);
+    background-size: 100%;
+    position: relative;
+    
+    
+}
+.shadow-box {
+    width: 100%;
+    height: 100%;
+    background-color: #222222;
+    position: absolute;
+    opacity: 0.8;
+}
+.flex-box-reviews {
+    display: flex;
+    flex-direction: row;
+}
+
+.reviews-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    
+}
+
+
+.reviews-description img {
+    width: 9px;
+    height: 9px;
+    margin-top: 33px;
+    margin-top: 25px;
+    margin-right: 8px;
+
+}
+.reviews-description p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF7A00;
+    margin-right: 16px;
+}
+
+.transparent_block {
+    width: 204px;
+    height: 334px;
+    border: 3px solid #FFF1E3;
+    box-sizing: border-box;
+    margin-left: 32px;
+}
+.transparent_block {
+    position: absolute;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.reviews-section-arrow-case {
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 300px;
+    position: relative;
+}
+.reviews-section-arrow {
+    position: absolute;
+    width: 20px;
+    right: 27px;
+}
+
+.reviews-section-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 380px;
+    margin-left: 16px;
+    margin-right: 20px;
+}
+
+.reviews-section-text p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFF1E3;
+    margin-left: 10px;
+    margin-right: 16px;
+}
+
+.contact-us-section {
+    width: 100%;
+    height: 540px;
+}
+
+.contact-us h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FF7A00;
+    margin-left: 16px;
+    margin-top: 43px;
+    margin-bottom: 19px;
+}
+.contact-us p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+.contact-us .email-tel {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #222222;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.contact-us p:last-child {
+    text-decoration: none;
+}
+
+.contact-us .font-awesome {
+    margin-left: 16px;
+    margin-bottom: 35px;
+}
+
+.contact-us .font-awesome a {
+    margin-right: 15px;
+    font-size: 30px;
+    color: #FF7A00;
+    text-decoration: none;
+}
+.shedule h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FF7A00;
+    margin-left: 16px;
+    margin-top: 43px;
+    margin-bottom: 19px;
+}
+.shedule div {
+    display: flex;
+    flex-direction: row;
+}
+
+.shedule div .days-time {
+    display: flex;
+    flex-direction: column;
+}
+.days-time {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px bold;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+.mobile-map {
+    width: 100%;
+    height: 188px;
+    background-image: url(../images/map-mobile.png);
+}
+
+.footer {
+    width: 100%;
+    height: 500px;
+    background-color: #222222;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-vector img {
+   margin-top: 24px;
+   margin-left: 16px;
+   margin-right: 10px;
+}
+
+.footer-logo-2 {
+    display: flex;
+    flex-direction: row;
+}
+.footer-barber {
+    margin-top: 24px;
+}
+
+.footer-ellipse {
+    margin-top: 6.5px;
+}
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+.footer-menu a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.footer-visit-us{
+    margin-top: 24px;
+    margin-left: 16px;
+}
+.footer-visit-us h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-visit-us p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.footer-visit-us a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-follow-us .font-awesome {
+    margin-left: 19px;
+    
+}
+
+.footer-follow-us .font-awesome a {
+    margin-right: 15px;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 470px) {
+    .button-case input{
+        padding: 0 150px
+    }
+    .our-services img {
+        margin-left: 300px;
+    }
+
+    .second-section {
+        display: flex;
+        flex-wrap: wrap;
+        height: 350px;
+        flex-direction: row;
+    }
+    .form-section {
+        margin-top: -80px;
+        
+    }
+    
+    .form-section h1 {
+        margin-left: 80px;
+    }
+    .form-section .form-section-description {
+        margin-left: 110px;
+    }
+
+    .name_1 {
+        width: 440px;
+        padding-left: 150px;
+    }
+    .name_2 {
+        padding-left: 170px;
+        width: 440px;
+    }
+    .name_3 {
+        width: 440px;
+        padding-left: 200px;
+    }
+
+    .form-section-radio-buttons {
+        width: 440px;
+        padding-left: 100px;
+    }
+
+    .button-form {
+        padding: 0 165px;
+    }
+    
+   
+    
+}   
+@media screen and (min-width:760px) {
+    .header{
+        height: 100px;
+    }
+    .burger-menu img {
+        margin-top: 40px;
+        margin-left: 25px;
+    }
+    .cart img {
+        margin-right: 25px;
+        margin-top: 40px;
+        
+    }
+
+    .main-section {
+        background-image: url(../images/Tablet-main.png);
+        width: 768px;
+        height: 440px;
+    }
+   .barber-shop {
+       margin-left: 30px;
+       margin-top: 40px;
+   }
+    .blade img {
+        width: 75px;
+        height: 130px;
+    }
+    .barber-shop-images .Barber {
+        width: 243px;
+        height: 42px;
+    }
+    .barber-shop-images .shop {
+        width: 244px;
+        height: 74px;
+    }
+    .dot_img {
+        margin-top: 25px;
+    }
+    .dot {
+        width: 26px;
+        height: 26px;
+    }
+    .main-section-text p {
+        width: 400px;
+        height: 50px;
+        margin-bottom: 40px;
+    }
+    .button-case .button {
+        padding: 0 31px;
+    }
+    .our-services {
+        width: 100%;
+        margin-top: 64px;
+        margin-bottom: 22px;
+        
+       
+    }
+    .our-services p {
+        font-family: 'Montserrat' , sans-serif;
+        font-style: normal;
+        font-weight:700;
+        font-size: 32px ;
+        line-height: 39px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .second-section {
+        display: flex;
+        flex-wrap: wrap;
+        height: 350px;
+        flex-direction: column;
+    }
+    .second-section-title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+        display: flex;
+        align-items: center;
+        color: #FFF1E3;
+    }
+
+    .orange-block {
+        margin-left: 180px;
+    }
+    .master-description {
+        margin-left: 190px;
+    }
+    .third-section-dialog-box {
+        width: 441px;
+        height: 211px;
+        margin-left: 175px;
+        margin-bottom: 64px;
+    }
+    .form-section {
+        width: 100%;
+        height: 925px;
+        position: relative;
+        background-image: url(../images/arthur-humeau-pu20JkUx--A-unsplash_TABLET.png);
+        margin: 0;
+        margin-top: 164px;
+    }
+    .form-section-box {
+        padding: 0 100px;
+        height: 800px;
+        background-color: #FFFFFF;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 3px solid #333;
+        width: 90%;
+    }
+    .form-section-box h1 {
+        margin-top: 64px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: capitalize;
+        margin-bottom: 32px;  
+    }
+
+    .form-section .form-section-description {
+        margin-left: 160px;
+    }
+    .form-section-title {
+        margin-left: -50px;
+    }
+   
+
+    .date-time {
+        display: flex;
+        flex-direction: row;
+    }
+   .name{
+      width: 600px;
+      margin-left: -70px
+   }
+   .date {
+      margin-left: -70px;
+      width: 288px;
+      margin-right: 24px;
+   }
+   .time {
+        margin-left: 20px;
+        width: 265px;
+   }
+   .time_1 {
+       margin-left: 100px;
+   }
+   .form-section-radio-buttons {
+       width: 600px;
+       height: 80px;
+       margin-left: -70px;
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+   }
+}
