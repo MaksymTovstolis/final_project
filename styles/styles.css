@@ -87,8 +87,7 @@ html {
 }
 
 .button {
-    margin-left: 6px;
-    padding: 0 85px;
+    padding: 0 80px;
     height: 52px;
     background: #FF7A00;
     border-radius: 4px;
@@ -319,6 +318,39 @@ html {
 }
 
 .name {
+    width: 288px;
+    height: 44px;
+    margin-left: 40px;
+    margin-right: 23px;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+.date {
+    width: 288px;
+    height: 44px;
+    margin-left: 40px;
+    margin-right: 23px;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.time {
     width: 288px;
     height: 44px;
     margin-left: 40px;
@@ -672,6 +704,7 @@ html {
     flex-direction: column;
     margin-top: 380px;
     margin-left: 16px;
+    margin-right: 20px;
 }
 
 .reviews-section-text p {
@@ -1065,47 +1098,34 @@ html {
     .form-section-title {
         margin-left: -50px;
     }
+   
 
     .date-time {
         display: flex;
         flex-direction: row;
     }
-    .name_1 {
-        margin-left: -50px;
-        padding: 0 30px;
-        width: 600px;
-    }
-    .name_2 {
-        margin-left: -50px;
-        padding: 0 30px;
-        height: 44px;
-        width: 290px;
-         
-    }
-
-    .name_3 {
-        padding: 0 30px;
-        height: 44px;
-        width: 290px;
-        margin-left: -7px;
-        
-    }
-    .form-section-radio-buttons {
-        height: 80px;
-        width: 600px;
-        display: flex;
-        flex-direction: row;
-        margin-left: -50px;
-        
-    }
-    .radio-buttons-flex-section {
-        display: flex;
-        flex-direction: column;
-    }
-    .radio-master {
-        display: flex;
-        flex-direction:inherit;
-    }
-     
-
+   .name{
+      width: 600px;
+      margin-left: -70px
+   }
+   .date {
+      margin-left: -70px;
+      width: 288px;
+      margin-right: 24px;
+   }
+   .time {
+        margin-left: 20px;
+        width: 265px;
+   }
+   .time_1 {
+       margin-left: 100px;
+   }
+   .form-section-radio-buttons {
+       width: 600px;
+       height: 80px;
+       margin-left: -70px;
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+   }
 }
